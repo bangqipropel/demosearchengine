@@ -1,0 +1,13 @@
+title: Valid App 2
+version: 0.0.2
+maintainers:
+  - name: firstmaintainer app1
+    email: firstmaintainer@hotmail.com
+  - name: secondmaintainer app1
+    email: secondmaintainer@gmail.com
+company: B
+website: https://website.com
+source: https://github.com/random/repo
+license: A
+description: |
+  Test app description that includes Azure AKS Kubernetes
