@@ -63,8 +63,18 @@ Example using curl:
 curl "http://localhost:8080/search?title=Valid%20App&version=0.0.1"
 ```
 
+## Run Tests
+
+To run all unit tests, run the following command in the root path.
+
+```bash
+go test ./...
+```
+
 ## Other Notes
 
 This demo app is finished withiin a very short time. Given more time, I would introduce some inverted index mechanism to have better searching perfomance or leverage some existing index and search module such as Bleve. 
 
 In structure, I would have a Makefile to run the feature and all the test cases if I have more time.
+
+In the test part, I would like to have higher test coverage if more time available.
